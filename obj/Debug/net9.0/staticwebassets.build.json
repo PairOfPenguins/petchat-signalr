@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FDQAMdtb+TXA0WFbFurfLyjJpOPt4J81D0zwhfrkBd4=",
+  "Source": "petchat",
+  "BasePath": "_content/petchat",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
