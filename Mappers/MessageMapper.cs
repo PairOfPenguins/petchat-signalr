@@ -15,5 +15,10 @@ namespace petchat.Mappers
                 Id = message.Id,
             };
         }
+
+        public static Message ToMessageFromCreate(this CreateMessageDTO message)
+        {
+            return new Message { Content = message.Content, AssignedUserId = message.AssignedUserId };
+        }
     }
 }

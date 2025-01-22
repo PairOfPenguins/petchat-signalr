@@ -24,5 +24,12 @@ namespace petchat.Repositories
             return await _context.Users.Include(x => x.Messages).FirstOrDefaultAsync(u => u.Id == id);
 
         }
+
+        public async Task<User> CreateAsync(User user)
+        {
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
+            return user;
+        }
     }
 }

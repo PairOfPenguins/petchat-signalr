@@ -11,5 +11,13 @@ namespace petchat.Mappers
             return new UserDTO { Id = user.Id, Username = user.Username, Messages = user.Messages?.Select(c => c.ToMessageDTO()).ToList(), CreatedDate = user.CreatedDate };
 
         }
+
+        public static User ToUserFromCreate(this CreateUserDTO createUserDTO)
+        {
+            return new User
+            {
+                Username = createUserDTO.Username
+            };
+        }
     }
 }

@@ -15,6 +15,7 @@ namespace petchat.Repositories
             _context = context;
         }
 
+        
         public async Task<List<Message>> GetAllAsync()
         {
            return await _context.Messages.ToListAsync();
@@ -23,6 +24,13 @@ namespace petchat.Repositories
         public Task<Message?> GetByIdAsync(int id)
         {
             return _context.Messages.FirstOrDefaultAsync(m => m.Id == id);
+        }
+
+        public async Task<Message> CreateAsync(Message message)
+        {
+            await _context.Messages.AddAsync(message);
+            await _context.SaveChangesAsync();
+            return message;
         }
 
     }
