@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("petchat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d9f43035f32cd83706a2a726144d9b75bb40f44")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93373a781c0684df629335fff66dc117c5e2bc1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("petchat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("petchat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

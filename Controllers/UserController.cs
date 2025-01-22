@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using petchat.Interfaces;
+using petchat.Mappers;
 
 namespace petchat.Controllers
 {
@@ -17,7 +18,7 @@ namespace petchat.Controllers
         public async Task<IActionResult> GetAllAsync()
         {
             var users = await _userRepository.GetAllAsync();
-            return Ok(users);
+            return Ok(users.Select(c=>c.ToUserDto()));
         }
     }
 }
