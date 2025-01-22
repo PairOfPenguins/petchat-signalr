@@ -1,6 +1,8 @@
 
 using Microsoft.EntityFrameworkCore;
 using petchat.Data;
+using petchat.Interfaces;
+using petchat.Repositories;
 
 namespace petchat
 {
@@ -12,25 +14,29 @@ namespace petchat
 
 
             builder.Services.AddControllers();
-         
-            builder.Services.AddOpenApi();
+
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            var app = builder.Build();
+            builder.Services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            });
 
-            // Configure the HTTP request pipeline.
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+
+            builder.Services.AddOpenApi();
+            var app = builder.Build();
             if (app.Environment.IsDevelopment())
             {
-                app.MapOpenApi();
-                app.UseSwaggerUI(options =>
-                {
-                    options.SwaggerEndpoint("/openapi/v1.json", "petchat");
-                });
-                
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
 
             app.UseHttpsRedirection();

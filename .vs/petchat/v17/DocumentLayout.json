@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\.NET\\petchat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\.NET\\petchat\\Migrations\\20250122105721_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250122105721_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:interfaces\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,58 +34,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250122105721_Init.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Migrations\\20250122105721_Init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250122105721_Init.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Migrations\\20250122105721_Init.cs",
-              "RelativeToolTip": "Migrations\\20250122105721_Init.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T10:57:21.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T10:54:27.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MessagesController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Controllers\\MessagesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MessagesController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Controllers\\MessagesController.cs",
-              "RelativeToolTip": "Controllers\\MessagesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T10:53:40.406Z",
+              "WhenOpened": "2025-01-22T12:01:12.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T10:52:44.988Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T11:55:56.706Z",
               "EditorCaption": ""
             },
             {
@@ -92,9 +70,48 @@
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T10:44:31.655Z",
+              "WhenOpened": "2025-01-22T11:22:47.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T11:19:50.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T11:12:07.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Interfaces\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IMessageRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Interfaces\\IMessageRepository.cs",
+              "RelativeToolTip": "Interfaces\\IMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T11:10:49.804Z",
               "EditorCaption": ""
             }
           ]
