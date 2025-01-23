@@ -52,6 +52,17 @@ namespace petchat.Controllers
             return Ok(message.ToMessageDTO());
         }
 
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateAsync([FromRoute] int id, [FromBody] UpdateMessageDTO messageDTO)
+        {
+            var message = await _messageRepository.UpdateAsync(id, messageDTO.ToMessageFromUpdate());
+            if (message == null)
+            {
+                return NotFound("Message does not exist");
+            }
+            return Ok(message.ToMessageDTO());
+        }
+
 
     }
 }

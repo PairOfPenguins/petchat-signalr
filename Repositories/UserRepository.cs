@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using petchat.Data;
+using petchat.DTOs.UserDTOs;
 using petchat.Interfaces;
 using petchat.Models;
 
@@ -30,6 +32,20 @@ namespace petchat.Repositories
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
             return user;
+        }
+
+        public async Task<User> UpdateAsync(int id, UpdateUserDTO updateduser)
+        {
+            var user = await _context.Users.Include(m=>m.Messages).FirstOrDefaultAsync(u=>u.Id == id);
+            if (user == null)
+            {
+                return null;
+            }
+            user.Username = updateduser.Username;
+            await _context.SaveChangesAsync();
+            return user;
+            
+
         }
     }
 }

@@ -43,5 +43,17 @@ namespace petchat.Controllers
             return Ok(user.ToUserDto());
         }
 
+        [HttpPut("{id:int}")]
+        public async Task<IActionResult> UpdateAsync([FromRoute] int id, [FromBody] UpdateUserDTO userDTO)
+        {
+            var user = await _userRepository.UpdateAsync(id, userDTO);
+            if (user == null)
+            {
+                return NotFound("User does not exists");
+            }
+            return Ok(user.ToUserDto());
+        }
+
+
     }
 }

@@ -19,5 +19,13 @@ namespace petchat.Mappers
                 Username = createUserDTO.Username
             };
         }
+
+        public static User ToUserFromUpdate(this UpdateUserDTO updateUserDTO)
+        {
+            return new User()
+            {
+                Username = updateUserDTO.Username
+            };
+        }
     }
 }

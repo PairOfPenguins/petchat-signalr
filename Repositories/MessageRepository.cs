@@ -33,5 +33,17 @@ namespace petchat.Repositories
             return message;
         }
 
+        public async Task<Message> UpdateAsync(int id, Message updatemessage)
+        {
+            var message = await _context.Messages.FirstOrDefaultAsync(x => x.Id == id);
+            if (message == null)
+            {
+                return null;
+            }
+            message.Content = updatemessage.Content;
+            await _context.SaveChangesAsync();
+            return message;
+        }
+
     }
 }

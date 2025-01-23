@@ -20,5 +20,10 @@ namespace petchat.Mappers
         {
             return new Message { Content = message.Content, AssignedUserId = message.AssignedUserId };
         }
+
+        public static Message ToMessageFromUpdate(this UpdateMessageDTO message)
+        {
+            return new Message { Content = message.Content };
+        }
     }
 }

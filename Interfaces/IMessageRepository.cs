@@ -7,7 +7,8 @@ namespace petchat.Interfaces
         Task<List<Message>> GetAllAsync();
 
         Task<Message?> GetByIdAsync(int id);
-
         Task<Message> CreateAsync(Message message);
+
+        Task<Message> UpdateAsync(int id, Message message);
     }
 }
