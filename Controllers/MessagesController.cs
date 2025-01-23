@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using petchat.DTOs.MessageDTOs;
+using petchat.Helpers;
 using petchat.Interfaces;
 using petchat.Mappers;
 using petchat.Repositories;
@@ -19,9 +20,9 @@ namespace petchat.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllAsync()
+        public async Task<IActionResult> GetAllAsync([FromQuery] QueryObject query)
         {
-            var messages = await _messageRepository.GetAllAsync();
+            var messages = await _messageRepository.GetAllAsync(query);
 
             var messagesDTO = messages.Select(m => m.ToMessageDTO());
 

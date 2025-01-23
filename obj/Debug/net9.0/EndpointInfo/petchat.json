@@ -10,6 +10,15 @@
         "tags": [
           "Message"
         ],
+        "parameters": [
+          {
+            "name": "Content",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -279,11 +288,16 @@
   "components": {
     "schemas": {
       "CreateMessageDTO": {
+        "required": [
+          "assignedUserId",
+          "content"
+        ],
         "type": "object",
         "properties": {
           "content": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 300,
+            "minLength": 1,
+            "type": "string"
           },
           "assignedUserId": {
             "type": "integer",
@@ -293,31 +307,43 @@
         "additionalProperties": false
       },
       "CreateUserDTO": {
+        "required": [
+          "username"
+        ],
         "type": "object",
         "properties": {
           "username": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 30,
+            "minLength": 3,
+            "type": "string"
           }
         },
         "additionalProperties": false
       },
       "UpdateMessageDTO": {
+        "required": [
+          "content"
+        ],
         "type": "object",
         "properties": {
           "content": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 300,
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false
       },
       "UpdateUserDTO": {
+        "required": [
+          "username"
+        ],
         "type": "object",
         "properties": {
           "username": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 30,
+            "minLength": 3,
+            "type": "string"
           }
         },
         "additionalProperties": false

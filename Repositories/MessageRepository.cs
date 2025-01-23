@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using petchat.Data;
+using petchat.Helpers;
 using petchat.Interfaces;
 using petchat.Models;
 
@@ -15,10 +16,17 @@ namespace petchat.Repositories
             _context = context;
         }
 
-        
-        public async Task<List<Message>> GetAllAsync()
+
+        public async Task<List<Message>> GetAllAsync(QueryObject query)
         {
-           return await _context.Messages.ToListAsync();
+            var messagesQuery = _context.Messages.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(query.Content))
+            {
+                messagesQuery = messagesQuery.Where(s => s.Content.Contains(query.Content));
+            }
+
+            return await messagesQuery.ToListAsync();
         }
 
         public Task<Message?> GetByIdAsync(int id)
