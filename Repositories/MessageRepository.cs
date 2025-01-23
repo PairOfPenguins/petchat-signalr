@@ -26,7 +26,14 @@ namespace petchat.Repositories
                 messagesQuery = messagesQuery.Where(s => s.Content.Contains(query.Content));
             }
 
-            return await messagesQuery.ToListAsync();
+            var skipNumber = (query.PageNumber - 1) * query.PageSize;
+
+            if (query.PageNumber <= 0 || query.PageSize <= 0)
+            {
+                return new List<Message>();
+            }
+
+            return await messagesQuery.Skip(skipNumber).Take(query.PageSize).ToListAsync();
         }
 
         public Task<Message?> GetByIdAsync(int id)
