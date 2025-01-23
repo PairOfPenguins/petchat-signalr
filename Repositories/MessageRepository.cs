@@ -35,7 +35,7 @@ namespace petchat.Repositories
 
         public async Task<Message> UpdateAsync(int id, Message updatemessage)
         {
-            var message = await _context.Messages.FirstOrDefaultAsync(x => x.Id == id);
+            var message = await _context.Messages.FirstOrDefaultAsync(m => m.Id == id);
             if (message == null)
             {
                 return null;
@@ -45,5 +45,16 @@ namespace petchat.Repositories
             return message;
         }
 
+        public async Task<Message> DeleteAsync(int id)
+        {
+            var message = await _context.Messages.FirstOrDefaultAsync(m => m.Id == id);
+            if (message == null)
+            {
+                return null;
+            }
+            _context.Messages.Remove(message);
+            await _context.SaveChangesAsync();
+            return message;
+        }
     }
 }

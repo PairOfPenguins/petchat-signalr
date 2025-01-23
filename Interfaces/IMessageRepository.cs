@@ -10,5 +10,7 @@ namespace petchat.Interfaces
         Task<Message> CreateAsync(Message message);
 
         Task<Message> UpdateAsync(int id, Message message);
+
+        Task<Message> DeleteAsync(int id);
     }
 }

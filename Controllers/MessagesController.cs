@@ -63,6 +63,19 @@ namespace petchat.Controllers
             return Ok(message.ToMessageDTO());
         }
 
+        [HttpDelete("{id:int}")]
+
+        public async Task<IActionResult> DeleteAsync([FromRoute] int id)
+        {
+            var message = await _messageRepository.DeleteAsync(id);
+            if (message == null)
+            {
+                return NotFound("Message does not exist");
+            }
+            return Ok(message.ToMessageDTO());
+        }
+
+
 
     }
 }
