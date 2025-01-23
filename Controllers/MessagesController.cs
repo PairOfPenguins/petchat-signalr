@@ -40,10 +40,9 @@ namespace petchat.Controllers
         }
 
         [HttpPost]
-
         public async Task<IActionResult> CreateAsync([FromBody] CreateMessageDTO messageDTO)
         {
-            var user = _userRepository.GetByIdAsync(messageDTO.AssignedUserId);
+            var user = await _userRepository.GetByIdAsync(messageDTO.AssignedUserId);
             if (user == null)
             {
                 return BadRequest("Assigned User does not exist");
