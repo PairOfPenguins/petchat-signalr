@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\.NET\\petchat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\dtos\\userdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:dtos\\userdtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:dtos\\userdtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\dtos\\messagedtos\\createmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:dtos\\messagedtos\\createmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\dtos\\messagedtos\\updatemessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:dtos\\messagedtos\\updatemessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:dtos\\userdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|c:\\users\\user\\desktop\\.net\\petchat\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3D3F38-E8F9-480B-8DBC-0FD7D666E1D9}|petchat.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +54,76 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\UserDTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\UserDTOs\\UserDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:39:17.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\UserDTOs\\UpdateUserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\UpdateUserDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\UserDTOs\\UpdateUserDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTOs\\UpdateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:37:05.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\UserDTOs\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTOs\\CreateUserDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\UserDTOs\\CreateUserDTO.cs",
+              "RelativeToolTip": "DTOs\\UserDTOs\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:37:01.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateMessageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\MessageDTOs\\UpdateMessageDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\MessageDTOs\\UpdateMessageDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\MessageDTOs\\UpdateMessageDTO.cs",
+              "RelativeToolTip": "DTOs\\MessageDTOs\\UpdateMessageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:36:55.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateMessageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\MessageDTOs\\CreateMessageDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\MessageDTOs\\CreateMessageDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\DTOs\\MessageDTOs\\CreateMessageDTO.cs",
+              "RelativeToolTip": "DTOs\\MessageDTOs\\CreateMessageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T07:36:45.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MessagesController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Controllers\\MessagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MessagesController.cs",
@@ -51,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "IMessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Interfaces\\IMessageRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IMessageRepository.cs",
@@ -59,12 +144,11 @@
               "RelativeToolTip": "Interfaces\\IMessageRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T07:21:50.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T07:21:50.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -72,12 +156,11 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T07:14:50.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T07:14:50.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IUserRepository.cs",
@@ -85,12 +168,11 @@
               "RelativeToolTip": "Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T07:13:26.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T07:13:26.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Repositories\\MessageRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MessageRepository.cs",
@@ -98,12 +180,11 @@
               "RelativeToolTip": "Repositories\\MessageRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAqwCUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T06:41:56.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T06:41:56.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\.NET\\petchat\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
