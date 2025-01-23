@@ -47,5 +47,17 @@ namespace petchat.Repositories
             
 
         }
+        public async Task<User> DeleteAsync(int id)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u=> u.Id == id);
+            if (user == null)
+            {
+                return null;
+            }
+            _context.Users.Remove(user);
+            await _context.SaveChangesAsync();
+            return user;
+
+        }
     }
 }

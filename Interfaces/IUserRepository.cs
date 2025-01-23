@@ -10,6 +10,8 @@ namespace petchat.Interfaces
         Task<User> CreateAsync(User user);
         Task<User> UpdateAsync(int id, UpdateUserDTO user);
 
+        Task<User> DeleteAsync(int id);
+
 
     }
 }

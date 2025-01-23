@@ -54,6 +54,18 @@ namespace petchat.Controllers
             return Ok(user.ToUserDto());
         }
 
+        [HttpDelete("{id:int}")]
+
+        public async Task<IActionResult> DeleteAsync([FromRoute] int id)
+        {
+            var user = await _userRepository.DeleteAsync(id);
+            if (user == null)
+            {
+                return NotFound("User does not exist");
+            }
+            return Ok(user.ToUserDto());
+        }
+
 
     }
 }
