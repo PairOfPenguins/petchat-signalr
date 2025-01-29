@@ -9,8 +9,8 @@ namespace petchat.Interfaces
         Task<User?> GetByIdAsync(int id); 
         Task<User> CreateAsync(User user);
         Task<User> UpdateAsync(int id, UpdateUserDTO user);
-
         Task<User> DeleteAsync(int id);
+        Task<bool> UserExists(string username);
 
 
     }

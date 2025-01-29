@@ -165,4 +165,4 @@ C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\petchat.staticwebassets.runt
 C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\wwwroot\index.html.gz
 C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\wwwroot\index.html
-C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\compressed\jsetkd7izs-2y1g1k0efv.gz
+C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\compressed\jsetkd7izs-bppxea4sar.gz

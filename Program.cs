@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using petchat.Data;
 using petchat.Interfaces;
 using petchat.Repositories;
+using petchat.Services;
 
 namespace petchat
 {
@@ -31,6 +32,8 @@ namespace petchat
 
             builder.Services.AddScoped<IUserRepository, UserRepository>();
             builder.Services.AddScoped<IMessageRepository, MessageRepository>();
+            builder.Services.AddScoped<IPasswordService, PasswordService>();
+
 
             builder.Services.AddOpenApi();
             var app = builder.Build();

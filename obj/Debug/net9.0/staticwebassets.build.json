@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ms8X3+Xe6XImPYZmmyAwx3wZNuDpJ4lH1DfMNPkLyBE=",
+  "Hash": "xM6yDjLrzax8THk9cxcPF00Mo7KITBBTa/SIGn2gbLY=",
   "Source": "petchat",
   "BasePath": "_content/petchat",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-2y1g1k0efv.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
       "SourceId": "petchat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/petchat",
-      "RelativePath": "index#[.{fingerprint=2y1g1k0efv}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=bppxea4sar}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mzholfkxtn",
-      "Integrity": "EsJn4Pgby8ti4CaJ8FHh17qM8N8iOCA31ddfc2xm2dg=",
+      "Fingerprint": "x7rmy4jnq0",
+      "Integrity": "s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=",
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2y1g1k0efv",
-      "Integrity": "JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk=",
+      "Fingerprint": "bppxea4sar",
+      "Integrity": "X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=",
       "CopyToOutputDirectory": "Always",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -61,13 +61,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "index.2y1g1k0efv.html",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-2y1g1k0efv.gz",
+      "Route": "index.bppxea4sar.html",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001204819277"
+          "Quality": "0.001210653753"
         }
       ],
       "ResponseHeaders": [
@@ -77,15 +77,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "829"
+          "Value": "825"
         },
         {
           "Name": "ETag",
-          "Value": "\"EsJn4Pgby8ti4CaJ8FHh17qM8N8iOCA31ddfc2xm2dg=\""
+          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:11:44 GMT"
+          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -105,13 +105,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk=\""
+          "Value": "W/\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2y1g1k0efv"
+          "Value": "bppxea4sar"
         },
         {
           "Name": "label",
@@ -119,12 +119,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk="
+          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
         }
       ]
     },
     {
-      "Route": "index.2y1g1k0efv.html",
+      "Route": "index.bppxea4sar.html",
       "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -134,7 +134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2123"
+          "Value": "2136"
         },
         {
           "Name": "Content-Type",
@@ -142,11 +142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk=\""
+          "Value": "\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:11:44 GMT"
+          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,7 +156,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2y1g1k0efv"
+          "Value": "bppxea4sar"
         },
         {
           "Name": "label",
@@ -164,13 +164,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk="
+          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
         }
       ]
     },
     {
-      "Route": "index.2y1g1k0efv.html.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-2y1g1k0efv.gz",
+      "Route": "index.bppxea4sar.html.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -179,7 +179,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "829"
+          "Value": "825"
         },
         {
           "Name": "Content-Type",
@@ -187,11 +187,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EsJn4Pgby8ti4CaJ8FHh17qM8N8iOCA31ddfc2xm2dg=\""
+          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:11:44 GMT"
+          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -209,7 +209,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2y1g1k0efv"
+          "Value": "bppxea4sar"
         },
         {
           "Name": "label",
@@ -217,18 +217,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-EsJn4Pgby8ti4CaJ8FHh17qM8N8iOCA31ddfc2xm2dg="
+          "Value": "sha256-s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-2y1g1k0efv.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001204819277"
+          "Quality": "0.001210653753"
         }
       ],
       "ResponseHeaders": [
@@ -238,15 +238,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "829"
+          "Value": "825"
         },
         {
           "Name": "ETag",
-          "Value": "\"EsJn4Pgby8ti4CaJ8FHh17qM8N8iOCA31ddfc2xm2dg=\""
+          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:11:44 GMT"
+          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -266,13 +266,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk=\""
+          "Value": "W/\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk="
+          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
         }
       ]
     },
@@ -287,7 +287,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2123"
+          "Value": "2136"
         },
         {
           "Name": "Content-Type",
@@ -295,11 +295,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk=\""
+          "Value": "\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:11:44 GMT"
+          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -309,13 +309,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JqEjVifvv7SeXWefiTuBRHJeP6pR37+9dXU+G+T6Jjk="
+          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
         }
       ]
     },
     {
       "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-2y1g1k0efv.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -324,7 +324,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "829"
+          "Value": "825"
         },
         {
           "Name": "Content-Type",
@@ -332,11 +332,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"EsJn4Pgby8ti4CaJ8FHh17qM8N8iOCA31ddfc2xm2dg=\""
+          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:11:44 GMT"
+          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -354,7 +354,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-EsJn4Pgby8ti4CaJ8FHh17qM8N8iOCA31ddfc2xm2dg="
+          "Value": "sha256-s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY="
         }
       ]
     }

@@ -324,11 +324,17 @@
       },
       "CreateUserDTO": {
         "required": [
+          "password",
           "username"
         ],
         "type": "object",
         "properties": {
           "username": {
+            "maxLength": 30,
+            "minLength": 3,
+            "type": "string"
+          },
+          "password": {
             "maxLength": 30,
             "minLength": 3,
             "type": "string"

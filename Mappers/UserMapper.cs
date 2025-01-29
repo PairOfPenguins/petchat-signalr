@@ -12,11 +12,13 @@ namespace petchat.Mappers
 
         }
 
-        public static User ToUserFromCreate(this CreateUserDTO createUserDTO)
+        public static User ToUserFromCreate(this CreateUserDTO createUserDTO, byte[] PasswordHash, byte[] PasswordSalt)
         {
             return new User
             {
-                Username = createUserDTO.Username
+                Username = createUserDTO.Username,
+                PasswordHash = PasswordHash,
+                PasswordSalt = PasswordSalt
             };
         }
 

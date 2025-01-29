@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/petchat/index.2y1g1k0efv.html">
+    <StaticWebAssetEndpoint Include="_content/petchat/index.bppxea4sar.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2y1g1k0efv"},{"Name":"integrity","Value":"sha256-JqEjVifvv7SeXWefiTuBRHJeP6pR37\u002B9dXU\u002BG\u002BT6Jjk="},{"Name":"label","Value":"_content/petchat/index.html"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2123"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022JqEjVifvv7SeXWefiTuBRHJeP6pR37\u002B9dXU\u002BG\u002BT6Jjk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:11:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bppxea4sar"},{"Name":"integrity","Value":"sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej\u002BgluDrC5EfKyaQ8\u002Bc="},{"Name":"label","Value":"_content/petchat/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2136"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022X3Yqp7NInbJojg9Z/Sng1Ovaej\u002BgluDrC5EfKyaQ8\u002Bc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:16:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/petchat/index.html">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JqEjVifvv7SeXWefiTuBRHJeP6pR37\u002B9dXU\u002BG\u002BT6Jjk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2123"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022JqEjVifvv7SeXWefiTuBRHJeP6pR37\u002B9dXU\u002BG\u002BT6Jjk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:11:44 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej\u002BgluDrC5EfKyaQ8\u002Bc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2136"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022X3Yqp7NInbJojg9Z/Sng1Ovaej\u002BgluDrC5EfKyaQ8\u002Bc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 15:16:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

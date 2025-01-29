@@ -40,9 +40,19 @@ namespace petchat.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateAsync([FromBody] CreateUserDTO userDTO)
+        public async Task<IActionResult> CreateAsync([FromBody] CreateUserDTO userDTO, [FromServices] IPasswordService passwordService)
         {
-            var user = await _userRepository.CreateAsync(userDTO.ToUserFromCreate());
+            var normalizedUsername = userDTO.Username.Trim().ToLower();
+
+            if (await _userRepository.UserExists(normalizedUsername))
+            {
+                return BadRequest("User already exists");
+            }
+
+            byte[] passwordHash, passwordSalt;
+            passwordService.CreatePasswordHash(userDTO.Password, out passwordHash, out passwordSalt);
+
+            var user = await _userRepository.CreateAsync(userDTO.ToUserFromCreate(passwordHash,passwordSalt));
             return Ok(user.ToUserDto());
         }
 
@@ -68,6 +78,7 @@ namespace petchat.Controllers
             }
             return Ok(user.ToUserDto());
         }
+
 
 
 
