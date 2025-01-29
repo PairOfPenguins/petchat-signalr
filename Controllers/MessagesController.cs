@@ -53,8 +53,9 @@ namespace petchat.Controllers
                 return BadRequest("Assigned User does not exist");
             }
 
+            var username = user.Username;
 
-            var message = await _messageRepository.CreateAsync(messageDTO.ToMessageFromCreate());
+            var message = await _messageRepository.CreateAsync(messageDTO.ToMessageFromCreate(username));
 
             await _hubContext.Clients.All.SendAsync("ReceiveMessage", message.ToMessageDTO());
 

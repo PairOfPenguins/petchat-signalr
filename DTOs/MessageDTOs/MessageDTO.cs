@@ -8,5 +8,6 @@ namespace petchat.DTOs.MessageDTOs
         public string Content { get; set; } = string.Empty;
         public DateTime CreatedDate { get; set; }
         public int AssignedUserId { get; set; }
+        public string AssignedUserName { get; set; }
     }
 }

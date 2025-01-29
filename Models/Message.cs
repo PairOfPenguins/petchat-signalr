@@ -7,6 +7,7 @@
         public DateTime CreatedDate { get; set;} = DateTime.Now;
         public int AssignedUserId {get; set;}
         public User AssignedUser {get; set;}
+        public string AssignedUserName {get; set;}
 
 
 
