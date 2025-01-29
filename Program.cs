@@ -17,6 +17,7 @@ namespace petchat
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddSignalR();
 
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
@@ -38,6 +39,11 @@ namespace petchat
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
+
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
+            app.MapHub<ChatHub>("/chat");
 
             app.UseHttpsRedirection();
 

@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
+using petchat.Data;
 using petchat.DTOs.MessageDTOs;
 using petchat.Helpers;
 using petchat.Interfaces;
@@ -13,10 +15,12 @@ namespace petchat.Controllers
     {
         private readonly IMessageRepository _messageRepository;
         private readonly IUserRepository _userRepository;
-        public MessageController(IMessageRepository messageRepository, IUserRepository userRepository)
+        private readonly IHubContext<ChatHub> _hubContext;
+        public MessageController(IMessageRepository messageRepository, IUserRepository userRepository, IHubContext<ChatHub> hubContext)
         {
             _messageRepository = messageRepository;
             _userRepository = userRepository;
+            _hubContext = hubContext;
         }
 
         [HttpGet]
@@ -49,7 +53,11 @@ namespace petchat.Controllers
                 return BadRequest("Assigned User does not exist");
             }
 
+
             var message = await _messageRepository.CreateAsync(messageDTO.ToMessageFromCreate());
+
+            await _hubContext.Clients.All.SendAsync("ReceiveMessage", message.ToMessageDTO());
+
             return Ok(message.ToMessageDTO());
         }
 

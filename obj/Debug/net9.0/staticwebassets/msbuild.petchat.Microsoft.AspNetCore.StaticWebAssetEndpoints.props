@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/petchat/index.eblj75bri7.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eblj75bri7"},{"Name":"integrity","Value":"sha256-VgIVJzT\u002BeunDvsqRMVWmVbFjST4B39pAR2sWE85/O18="},{"Name":"label","Value":"_content/petchat/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2017"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022VgIVJzT\u002BeunDvsqRMVWmVbFjST4B39pAR2sWE85/O18=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 14:32:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/petchat/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VgIVJzT\u002BeunDvsqRMVWmVbFjST4B39pAR2sWE85/O18="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2017"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022VgIVJzT\u002BeunDvsqRMVWmVbFjST4B39pAR2sWE85/O18=\u0022"},{"Name":"Last-Modified","Value":"Wed, 29 Jan 2025 14:32:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

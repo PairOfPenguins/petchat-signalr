@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
+using petchat.Data;
 using petchat.DTOs.UserDTOs;
 using petchat.Interfaces;
 using petchat.Mappers;
@@ -11,6 +13,7 @@ namespace petchat.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
+        
         public UserController(IUserRepository userRepository)
         {
             _userRepository = userRepository;
