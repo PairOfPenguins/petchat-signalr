@@ -1,4 +1,22 @@
-﻿@page
+﻿@page "/Registration"
 @model petchat.Pages.RegisterModel
 @{
+
 }
+
+<h2>Register</h2>
+
+<form id="registerForm">
+    <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required />
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+    </div>
+    <button type="submit">Register</button>
+    <p id="message"></p>
+</form>
+
+<script src="/js/register.js"></script>

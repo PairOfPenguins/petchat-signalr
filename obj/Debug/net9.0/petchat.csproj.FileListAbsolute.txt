@@ -34,7 +34,6 @@ C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\refint\petchat.dll
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\petchat.pdb
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\petchat.genruntimeconfig.cache
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\ref\petchat.dll
-C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\Humanizer.dll
@@ -166,3 +165,4 @@ C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\System.Net.WebSockets.WebSoc
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\petchat.RazorAssemblyInfo.cache
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\petchat.RazorAssemblyInfo.cs
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\compressed\opph14zyyb-9uknrimgpb.gz
+C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\compressed\gao9lw5w3z-mpx4v17shb.gz

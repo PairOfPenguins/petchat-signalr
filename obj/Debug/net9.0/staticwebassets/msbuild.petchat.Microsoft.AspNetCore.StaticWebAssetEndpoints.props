@@ -4,13 +4,25 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9uknrimgpb"},{"Name":"integrity","Value":"sha256-v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8="},{"Name":"label","Value":"_content/petchat/js/chat.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1255"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 16:39:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1255"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 16:43:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/petchat/js/chat.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1255"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 16:39:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1255"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 16:43:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/petchat/js/register.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VulRax5U8RqE5LpLpD\u002BWTZiIg1HncnxhcGYh76NDdlE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"819"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VulRax5U8RqE5LpLpD\u002BWTZiIg1HncnxhcGYh76NDdlE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 16:53:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/petchat/js/register.mpx4v17shb.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mpx4v17shb"},{"Name":"integrity","Value":"sha256-VulRax5U8RqE5LpLpD\u002BWTZiIg1HncnxhcGYh76NDdlE="},{"Name":"label","Value":"_content/petchat/js/register.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"819"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022VulRax5U8RqE5LpLpD\u002BWTZiIg1HncnxhcGYh76NDdlE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 16:53:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

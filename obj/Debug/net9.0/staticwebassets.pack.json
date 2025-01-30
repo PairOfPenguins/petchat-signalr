@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\js\\chat.js"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.petchat.props",
       "PackagePath": "build\\petchat.props"
     },
