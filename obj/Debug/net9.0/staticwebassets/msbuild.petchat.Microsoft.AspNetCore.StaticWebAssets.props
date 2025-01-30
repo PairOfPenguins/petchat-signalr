@@ -1,22 +1,22 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))">
       <SourceType>Package</SourceType>
       <SourceId>petchat</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/petchat</BasePath>
-      <RelativePath>index.html</RelativePath>
+      <RelativePath>js/chat.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bppxea4sar</Fingerprint>
-      <Integrity>X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=</Integrity>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Fingerprint>9uknrimgpb</Fingerprint>
+      <Integrity>v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

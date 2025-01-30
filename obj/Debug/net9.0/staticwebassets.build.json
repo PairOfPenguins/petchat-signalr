@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xM6yDjLrzax8THk9cxcPF00Mo7KITBBTa/SIGn2gbLY=",
+  "Hash": "WLfwV5zhbtg4tVrsltLFWVBmzVyqHv4MVyWziIgO+iI=",
   "Source": "petchat",
   "BasePath": "_content/petchat",
   "Mode": "Default",
@@ -17,33 +17,33 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-9uknrimgpb.gz",
       "SourceId": "petchat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/petchat",
-      "RelativePath": "index#[.{fingerprint=bppxea4sar}]?.html.gz",
+      "RelativePath": "js/chat#[.{fingerprint=9uknrimgpb}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "x7rmy4jnq0",
-      "Integrity": "s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=",
-      "CopyToOutputDirectory": "Always",
+      "Fingerprint": "tpdz4nis5b",
+      "Integrity": "MZCTtbzCS4QFzGXfb9DUT0EImuLhqZQhj2WcEAPCTKs=",
+      "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
       "SourceId": "petchat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\",
       "BasePath": "_content/petchat",
-      "RelativePath": "index#[.{fingerprint}]?.html",
+      "RelativePath": "js/chat#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,22 +52,22 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bppxea4sar",
-      "Integrity": "X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=",
-      "CopyToOutputDirectory": "Always",
+      "Fingerprint": "9uknrimgpb",
+      "Integrity": "v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=",
+      "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
     }
   ],
   "Endpoints": [
     {
-      "Route": "index.bppxea4sar.html",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
+      "Route": "js/chat.9uknrimgpb.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-9uknrimgpb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001210653753"
+          "Quality": "0.001801801802"
         }
       ],
       "ResponseHeaders": [
@@ -77,15 +77,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "825"
+          "Value": "554"
         },
         {
           "Name": "ETag",
-          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
+          "Value": "\"MZCTtbzCS4QFzGXfb9DUT0EImuLhqZQhj2WcEAPCTKs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
+          "Value": "Thu, 30 Jan 2025 16:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -101,31 +101,31 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
+          "Value": "W/\"v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bppxea4sar"
+          "Value": "9uknrimgpb"
         },
         {
           "Name": "label",
-          "Value": "index.html"
+          "Value": "js/chat.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
+          "Value": "sha256-v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8="
         }
       ]
     },
     {
-      "Route": "index.bppxea4sar.html",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html",
+      "Route": "js/chat.9uknrimgpb.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -134,19 +134,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2136"
+          "Value": "1255"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
+          "Value": "\"v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
+          "Value": "Thu, 30 Jan 2025 16:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,21 +156,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bppxea4sar"
+          "Value": "9uknrimgpb"
         },
         {
           "Name": "label",
-          "Value": "index.html"
+          "Value": "js/chat.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
+          "Value": "sha256-v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8="
         }
       ]
     },
     {
-      "Route": "index.bppxea4sar.html.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
+      "Route": "js/chat.9uknrimgpb.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-9uknrimgpb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -179,19 +179,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "825"
+          "Value": "554"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
+          "Value": "\"MZCTtbzCS4QFzGXfb9DUT0EImuLhqZQhj2WcEAPCTKs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
+          "Value": "Thu, 30 Jan 2025 16:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -209,26 +209,26 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bppxea4sar"
+          "Value": "9uknrimgpb"
         },
         {
           "Name": "label",
-          "Value": "index.html.gz"
+          "Value": "js/chat.js.gz"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY="
+          "Value": "sha256-MZCTtbzCS4QFzGXfb9DUT0EImuLhqZQhj2WcEAPCTKs="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
+      "Route": "js/chat.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-9uknrimgpb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001210653753"
+          "Quality": "0.001801801802"
         }
       ],
       "ResponseHeaders": [
@@ -238,15 +238,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "825"
+          "Value": "554"
         },
         {
           "Name": "ETag",
-          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
+          "Value": "\"MZCTtbzCS4QFzGXfb9DUT0EImuLhqZQhj2WcEAPCTKs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
+          "Value": "Thu, 30 Jan 2025 16:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -262,23 +262,23 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
+          "Value": "W/\"v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
+          "Value": "sha256-v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8="
         }
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html",
+      "Route": "js/chat.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -287,19 +287,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2136"
+          "Value": "1255"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c=\""
+          "Value": "\"v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
+          "Value": "Thu, 30 Jan 2025 16:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -309,13 +309,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-X3Yqp7NInbJojg9Z/Sng1Ovaej+gluDrC5EfKyaQ8+c="
+          "Value": "sha256-v1OXiyNa5/69Z3V17y8BAcT/2TIWkS98ltMTsiKYjt8="
         }
       ]
     },
     {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\jsetkd7izs-bppxea4sar.gz",
+      "Route": "js/chat.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-9uknrimgpb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -324,19 +324,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "825"
+          "Value": "554"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY=\""
+          "Value": "\"MZCTtbzCS4QFzGXfb9DUT0EImuLhqZQhj2WcEAPCTKs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 29 Jan 2025 15:16:00 GMT"
+          "Value": "Thu, 30 Jan 2025 16:39:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -354,7 +354,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s+pdAURUyN7ngn1Tq1wvw31xhLoZPhTpbnx7H4GK1QY="
+          "Value": "sha256-MZCTtbzCS4QFzGXfb9DUT0EImuLhqZQhj2WcEAPCTKs="
         }
       ]
     }

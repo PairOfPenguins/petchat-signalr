@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
+      "Id": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.petchat.props",

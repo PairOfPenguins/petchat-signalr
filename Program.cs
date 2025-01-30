@@ -34,6 +34,8 @@ namespace petchat
             builder.Services.AddScoped<IMessageRepository, MessageRepository>();
             builder.Services.AddScoped<IPasswordService, PasswordService>();
 
+            builder.Services.AddRazorPages();
+           
 
             builder.Services.AddOpenApi();
             var app = builder.Build();
@@ -43,8 +45,11 @@ namespace petchat
                 app.UseSwaggerUI();
             }
 
+            app.MapRazorPages();
+
             app.UseDefaultFiles();
             app.UseStaticFiles();
+            
 
             app.MapHub<ChatHub>("/chat");
 
