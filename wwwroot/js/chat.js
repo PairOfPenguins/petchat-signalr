@@ -7,8 +7,11 @@ document.getElementById("sendBtn").addEventListener("click", function () {
 
     fetch("/api/message", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content: message, assignedUserId: 1 }),
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${localStorage.getItem("token")}` 
+        },
+        body: JSON.stringify({ content: message }),
     })
         .then(response => {
             if (!response.ok) throw new Error("Failed to send message");

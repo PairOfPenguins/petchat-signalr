@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using petchat.Data;
 using petchat.DTOs.MessageDTOs;
@@ -6,6 +7,7 @@ using petchat.Helpers;
 using petchat.Interfaces;
 using petchat.Mappers;
 using petchat.Repositories;
+using System.Security.Claims;
 
 namespace petchat.Controllers
 {
@@ -23,6 +25,7 @@ namespace petchat.Controllers
             _hubContext = hubContext;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllAsync([FromQuery] QueryObject query)
         {
@@ -32,7 +35,7 @@ namespace petchat.Controllers
 
             return Ok(messagesDTO);
         }
-
+        [Authorize]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetByIdAsync([FromRoute] int id)
         {
@@ -44,14 +47,25 @@ namespace petchat.Controllers
             return Ok(message.ToMessageDTO());
         }
 
+        [Authorize] 
         [HttpPost]
         public async Task<IActionResult> CreateAsync([FromBody] CreateMessageDTO messageDTO)
         {
-            var user = await _userRepository.GetByIdAsync(messageDTO.AssignedUserId);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (userIdClaim == null)
+            {
+                return Unauthorized("User ID not found in token");
+            }
+
+            int userId = int.Parse(userIdClaim);
+
+            var user = await _userRepository.GetByIdAsync(userId);
             if (user == null)
             {
                 return BadRequest("Assigned User does not exist");
             }
+
+            messageDTO.AssignedUserId = userId;
 
             var username = user.Username;
 
@@ -62,6 +76,7 @@ namespace petchat.Controllers
             return Ok(message.ToMessageDTO());
         }
 
+        [Authorize]
         [HttpPut("{id:int}")]
         public async Task<IActionResult> UpdateAsync([FromRoute] int id, [FromBody] UpdateMessageDTO messageDTO)
         {
@@ -73,8 +88,8 @@ namespace petchat.Controllers
             return Ok(message.ToMessageDTO());
         }
 
+        [Authorize]
         [HttpDelete("{id:int}")]
-
         public async Task<IActionResult> DeleteAsync([FromRoute] int id)
         {
             var message = await _messageRepository.DeleteAsync(id);
