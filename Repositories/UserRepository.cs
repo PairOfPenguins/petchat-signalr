@@ -66,7 +66,10 @@ namespace petchat.Repositories
                 .AnyAsync(u => u.Username.ToLower() == username.ToLower());
         }
 
-
+        public async Task<User> GetByUsernameAsync(string username)
+        {
+            return await _context.Users.Include(x => x.Messages).FirstOrDefaultAsync(u => u.Username == username);
+        }
     }
     
 }

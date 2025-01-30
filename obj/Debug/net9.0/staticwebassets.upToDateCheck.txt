@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\.NET\petchat\wwwroot\js\register.js
+C:\Users\user\Desktop\.NET\petchat\wwwroot\js\chat.js
+wwwroot\js\chat.js
+wwwroot\js\register.js

@@ -166,3 +166,5 @@ C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\petchat.RazorAssemblyInfo.ca
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\petchat.RazorAssemblyInfo.cs
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\compressed\opph14zyyb-9uknrimgpb.gz
 C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\compressed\gao9lw5w3z-mpx4v17shb.gz
+C:\Users\user\Desktop\.NET\petchat\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\.NET\petchat\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

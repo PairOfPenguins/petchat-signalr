@@ -172,5 +172,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "petchat.Controllers.UserController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/user/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDTO",
+        "Type": "petchat.DTOs.UserDTOs.LoginUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

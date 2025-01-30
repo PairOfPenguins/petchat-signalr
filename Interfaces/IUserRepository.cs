@@ -12,6 +12,8 @@ namespace petchat.Interfaces
         Task<User> DeleteAsync(int id);
         Task<bool> UserExists(string username);
 
+        Task<User> GetByUsernameAsync(string username);
+
 
     }
 }
