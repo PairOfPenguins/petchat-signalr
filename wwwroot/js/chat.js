@@ -19,6 +19,12 @@ document.getElementById("sendBtn").addEventListener("click", function () {
         .catch(err => console.error(err));
 });
 
+document.getElementById("logoutBtn").addEventListener("click", function () {
+    localStorage.clear();
+    window.location.href = "/Login";
+});
+
+
 hubConnection.on("ReceiveMessage", function (message) {
     const content = message.content;
     const userName = message.assignedUserName;
@@ -34,6 +40,8 @@ hubConnection.on("ReceiveMessage", function (message) {
     document.getElementById("chatroom").appendChild(messageElement);
 });
 
+
 hubConnection.start()
     .then(() => document.getElementById("sendBtn").disabled = false)
     .catch(err => console.error(err.toString()));
+

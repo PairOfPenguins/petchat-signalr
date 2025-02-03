@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7njnkls91n</Fingerprint>
-      <Integrity>zTS8zTpIli3P1Sron0+Ee5dGej3K0Slj7VQhWlvGaZU=</Integrity>
+      <Fingerprint>piiy8w2sc0</Fingerprint>
+      <Integrity>v8V8fE04BTmfdvEJK9gcTCYzomYP7FUPD3AbGsKgsOQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ut2dp877rd</Fingerprint>
-      <Integrity>klhrRVHmhcdaIQ1V2Z8ZWQM/Gj+79fz/BLmfW/ANA9c=</Integrity>
+      <Fingerprint>pz965nbkl3</Fingerprint>
+      <Integrity>FQntn6E0qIAOq6Kug0RxLuw7qGMLICFyUOns7vjfvJA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\register.js'))</OriginalItemSpec>
