@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u6YtH5MdwpbcFi3OjdrOTXq4tD9f\u002BELeilDfI1Jomug="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"187"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022u6YtH5MdwpbcFi3OjdrOTXq4tD9f\u002BELeilDfI1Jomug=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 20:29:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/petchat/js/chat.ff91lmzkb2.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ff91lmzkb2"},{"Name":"integrity","Value":"sha256-\u002B2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY="},{"Name":"label","Value":"_content/petchat/js/chat.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1855"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002B2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 21:34:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/petchat/js/chat.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v8V8fE04BTmfdvEJK9gcTCYzomYP7FUPD3AbGsKgsOQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1488"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022v8V8fE04BTmfdvEJK9gcTCYzomYP7FUPD3AbGsKgsOQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 21:06:27 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/petchat/js/chat.piiy8w2sc0.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"piiy8w2sc0"},{"Name":"integrity","Value":"sha256-v8V8fE04BTmfdvEJK9gcTCYzomYP7FUPD3AbGsKgsOQ="},{"Name":"label","Value":"_content/petchat/js/chat.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1488"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022v8V8fE04BTmfdvEJK9gcTCYzomYP7FUPD3AbGsKgsOQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 21:06:27 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002B2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1855"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022\u002B2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 21:34:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/petchat/js/login.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\login.js'))</AssetFile>

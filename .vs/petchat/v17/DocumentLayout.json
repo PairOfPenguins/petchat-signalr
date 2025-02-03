@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "wwwroot\\js\\chat.js",
               "ToolTip": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
               "RelativeToolTip": "wwwroot\\js\\chat.js",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-02-03T21:03:08.693Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Pages\\Chat.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-03T21:00:04.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T21:00:04.473Z"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "Pages\\Register.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T16:47:49.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T16:47:49.064Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "Pages\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T16:47:39.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-30T16:47:39.132Z"
             },
             {
               "$type": "Document",

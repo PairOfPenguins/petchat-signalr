@@ -28,17 +28,26 @@ document.getElementById("logoutBtn").addEventListener("click", function () {
 hubConnection.on("ReceiveMessage", function (message) {
     const content = message.content;
     const userName = message.assignedUserName;
+    const createdDate = new Date(message.createdDate); 
+    const formattedTime = createdDate.toLocaleTimeString(); 
 
     let messageElement = document.createElement("p");
 
     let userNameElement = document.createElement("strong");
     userNameElement.textContent = userName + ": ";
 
+    let timeElement = document.createElement("small");
+    timeElement.style.color = "gray";
+    timeElement.style.marginLeft = "10px";
+    timeElement.textContent = `(${formattedTime})`;
+
     messageElement.appendChild(userNameElement);
-    messageElement.appendChild(document.createTextNode(content));
+    messageElement.appendChild(document.createTextNode(content + " "));
+    messageElement.appendChild(timeElement);
 
     document.getElementById("chatroom").appendChild(messageElement);
 });
+
 
 
 hubConnection.start()
