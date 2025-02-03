@@ -16,8 +16,16 @@
         messageElement.textContent = "Registration successful! Redirecting...";
         setTimeout(() => window.location.href = "/Login", 1500);
     } else {
-        const errorMessage = await response.text();
-        messageElement.textContent = "Error: " + errorMessage;
+        try {
+            const errorData = await response.json(); 
+            if (errorData.errors) {
+                const errors = Object.values(errorData.errors).flat();
+                messageElement.textContent = "Error: " + errors.join(", ");
+            } else {
+                messageElement.textContent = "Error: " + (errorData.title || "Unknown error occurred");
+            }
+        } catch {
+            messageElement.textContent = "Error: Unable to process the error response.";
+        }
     }
 });
-
