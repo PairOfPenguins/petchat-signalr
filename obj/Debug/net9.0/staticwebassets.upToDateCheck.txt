@@ -1,7 +1,7 @@
-C:\Users\user\Desktop\.NET\petchat\wwwroot\js\login.js
-C:\Users\user\Desktop\.NET\petchat\wwwroot\js\register.js
-C:\Users\user\Desktop\.NET\petchat\wwwroot\js\chat.js
-C:\Users\user\Desktop\.NET\petchat\wwwroot\js\auth.js
+C:\Users\user\Desktop\.NET\petchat-signalr\wwwroot\js\login.js
+C:\Users\user\Desktop\.NET\petchat-signalr\wwwroot\js\register.js
+C:\Users\user\Desktop\.NET\petchat-signalr\wwwroot\js\chat.js
+C:\Users\user\Desktop\.NET\petchat-signalr\wwwroot\js\auth.js
 wwwroot\js\auth.js
 wwwroot\js\chat.js
 wwwroot\js\login.js

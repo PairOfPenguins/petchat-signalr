@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LtNcmnyJ6sMN85M8Pxq0BNCf7e7CMkwVjUcNHhDqqNM=",
+  "Hash": "ipXO57n6BDmpmI4N22re3lHAm5l2fYKxEpNrK4styuE=",
   "Source": "petchat",
   "BasePath": "_content/petchat",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "petchat\\wwwroot",
       "Source": "petchat",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\",
       "BasePath": "_content/petchat",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/login#[.{fingerprint=zpec0ztkt6}]?.js.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\login.js",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\login.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "tc0u3vp85l",
       "Integrity": "s1NgCVhTV32AmzoHz8mbisZoODjuZeMFQW/MUGIv+f4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\login.js"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\login.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/register#[.{fingerprint=pz965nbkl3}]?.js.gz",
       "AssetKind": "All",
@@ -49,20 +49,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\register.js",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\register.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "oz0nd99aha",
       "Integrity": "xGUMXj2yDo9KWgA0yL2V8mu0o0O3RJ9TcIVJaJOTxRE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\register.js"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\register.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/chat#[.{fingerprint=ff91lmzkb2}]?.js.gz",
       "AssetKind": "All",
@@ -70,20 +70,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "2pehl2rani",
       "Integrity": "Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/auth#[.{fingerprint=hl8na1ahus}]?.js.gz",
       "AssetKind": "All",
@@ -91,20 +91,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\auth.js",
+      "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\auth.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "2vo6fbszsj",
       "Integrity": "Xr6qK24A4wMFoUwJHGqS5HhK5gX5LN0tGW3LWKNanDg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\auth.js"
+      "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\auth.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\auth.js",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\auth.js",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/auth#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\auth.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/chat#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\js\\chat.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\login.js",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\login.js",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/login#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\register.js",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\register.js",
       "SourceId": "petchat",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\",
       "BasePath": "_content/petchat",
       "RelativePath": "js/register#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -188,7 +188,7 @@
   "Endpoints": [
     {
       "Route": "js/auth.hl8na1ahus.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -211,7 +211,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:29:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -251,7 +251,7 @@
     },
     {
       "Route": "js/auth.hl8na1ahus.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\auth.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\auth.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -272,7 +272,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:29:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -296,7 +296,7 @@
     },
     {
       "Route": "js/auth.hl8na1ahus.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -317,7 +317,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:29:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -349,7 +349,7 @@
     },
     {
       "Route": "js/auth.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -372,7 +372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:29:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -404,7 +404,7 @@
     },
     {
       "Route": "js/auth.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\auth.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\auth.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -425,7 +425,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:29:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -441,7 +441,7 @@
     },
     {
       "Route": "js/auth.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\yczuqn5zu8-hl8na1ahus.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -462,7 +462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:29:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -486,7 +486,7 @@
     },
     {
       "Route": "js/chat.ff91lmzkb2.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -509,7 +509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 21:34:26 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -549,7 +549,7 @@
     },
     {
       "Route": "js/chat.ff91lmzkb2.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -570,7 +570,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 21:34:26 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -594,7 +594,7 @@
     },
     {
       "Route": "js/chat.ff91lmzkb2.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -615,7 +615,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 21:34:26 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -647,7 +647,7 @@
     },
     {
       "Route": "js/chat.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -670,7 +670,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 21:34:26 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -702,7 +702,7 @@
     },
     {
       "Route": "js/chat.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\chat.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -723,7 +723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 21:34:26 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -739,7 +739,7 @@
     },
     {
       "Route": "js/chat.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -760,7 +760,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 21:34:26 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -784,7 +784,7 @@
     },
     {
       "Route": "js/login.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -807,7 +807,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:12:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -839,7 +839,7 @@
     },
     {
       "Route": "js/login.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\login.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\login.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -860,7 +860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:12:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -876,7 +876,7 @@
     },
     {
       "Route": "js/login.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -897,7 +897,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:12:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -921,7 +921,7 @@
     },
     {
       "Route": "js/login.zpec0ztkt6.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -944,7 +944,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:12:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -984,7 +984,7 @@
     },
     {
       "Route": "js/login.zpec0ztkt6.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\login.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\login.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1005,7 +1005,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:12:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1029,7 +1029,7 @@
     },
     {
       "Route": "js/login.zpec0ztkt6.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\cg6hb86p5r-zpec0ztkt6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1050,7 +1050,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:12:17 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1082,7 +1082,7 @@
     },
     {
       "Route": "js/register.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1105,7 +1105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:52:54 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1137,7 +1137,7 @@
     },
     {
       "Route": "js/register.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\register.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\register.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1158,7 +1158,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:52:54 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1174,7 +1174,7 @@
     },
     {
       "Route": "js/register.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1195,7 +1195,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:52:54 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1219,7 +1219,7 @@
     },
     {
       "Route": "js/register.pz965nbkl3.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -1242,7 +1242,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:52:54 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1282,7 +1282,7 @@
     },
     {
       "Route": "js/register.pz965nbkl3.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\wwwroot\\js\\register.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\register.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1303,7 +1303,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:52:54 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1327,7 +1327,7 @@
     },
     {
       "Route": "js/register.pz965nbkl3.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\gao9lw5w3z-pz965nbkl3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1348,7 +1348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 20:52:54 GMT"
+          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
         },
         {
           "Name": "Cache-Control",

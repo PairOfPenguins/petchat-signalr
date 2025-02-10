@@ -6111,11 +6111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\.NET\\petchat\\petchat.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\petchat.csproj",
       "projectName": "petchat",
-      "projectPath": "C:\\Users\\user\\Desktop\\.NET\\petchat\\petchat.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\petchat.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\.NET\\petchat\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
