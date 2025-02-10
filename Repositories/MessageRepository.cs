@@ -26,6 +26,14 @@ namespace petchat.Repositories
                 messagesQuery = messagesQuery.Where(s => s.Content.Contains(query.Content));
             }
 
+            if (!string.IsNullOrEmpty(query.SortBy))
+            {
+                if (query.SortBy.Equals("CreatedDate", StringComparison.OrdinalIgnoreCase))
+                {
+                    messagesQuery = query.IsDescending ? messagesQuery.OrderByDescending(m=>m.CreatedDate) : messagesQuery.OrderBy(m=>m.CreatedDate);
+                }
+            }
+
             var skipNumber = (query.PageNumber - 1) * query.PageSize;
 
             if (query.PageNumber <= 0 || query.PageSize <= 0)

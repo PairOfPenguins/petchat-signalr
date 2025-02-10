@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ff91lmzkb2</Fingerprint>
-      <Integrity>+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=</Integrity>
+      <Fingerprint>zqv9d07570</Fingerprint>
+      <Integrity>++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\chat.js'))</OriginalItemSpec>

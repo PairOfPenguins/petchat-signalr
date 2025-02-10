@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ipXO57n6BDmpmI4N22re3lHAm5l2fYKxEpNrK4styuE=",
+  "Hash": "ieoCHiLhplRsFpbK/KbcfA1VW3GM4gPqHxxectNlu9A=",
   "Source": "petchat",
   "BasePath": "_content/petchat",
   "Mode": "Default",
@@ -59,12 +59,12 @@
       "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\register.js"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "Identity": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-zqv9d07570.gz",
       "SourceId": "petchat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/petchat",
-      "RelativePath": "js/chat#[.{fingerprint=ff91lmzkb2}]?.js.gz",
+      "RelativePath": "js/chat#[.{fingerprint=zqv9d07570}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -73,8 +73,8 @@
       "RelatedAsset": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2pehl2rani",
-      "Integrity": "Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss=",
+      "Fingerprint": "68gb62w244",
+      "Integrity": "GkvWdPJku/bxD/WTEF0fPk6x+xmr8XnDGI/5D6fFQBc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ff91lmzkb2",
-      "Integrity": "+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=",
+      "Fingerprint": "zqv9d07570",
+      "Integrity": "++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\chat.js"
@@ -485,13 +485,13 @@
       ]
     },
     {
-      "Route": "js/chat.ff91lmzkb2.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "Route": "js/chat.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-zqv9d07570.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001353179973"
+          "Quality": "0.001064962726"
         }
       ],
       "ResponseHeaders": [
@@ -501,19 +501,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "738"
+          "Value": "938"
         },
         {
           "Name": "ETag",
-          "Value": "\"Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss=\""
+          "Value": "\"GkvWdPJku/bxD/WTEF0fPk6x+xmr8XnDGI/5D6fFQBc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
+          "Value": "Mon, 10 Feb 2025 15:39:42 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -529,26 +529,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=\""
+          "Value": "W/\"++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "ff91lmzkb2"
-        },
-        {
-          "Name": "label",
-          "Value": "js/chat.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY="
+          "Value": "sha256-++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I="
         }
       ]
     },
     {
-      "Route": "js/chat.ff91lmzkb2.js",
+      "Route": "js/chat.js",
       "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -558,7 +550,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1855"
+          "Value": "2808"
         },
         {
           "Name": "Content-Type",
@@ -566,11 +558,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=\""
+          "Value": "\"++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
+          "Value": "Mon, 10 Feb 2025 15:39:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-zqv9d07570.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "938"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GkvWdPJku/bxD/WTEF0fPk6x+xmr8XnDGI/5D6fFQBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 15:39:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GkvWdPJku/bxD/WTEF0fPk6x+xmr8XnDGI/5D6fFQBc="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.zqv9d07570.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-zqv9d07570.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001064962726"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "938"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GkvWdPJku/bxD/WTEF0fPk6x+xmr8XnDGI/5D6fFQBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 15:39:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zqv9d07570"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chat.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I="
+        }
+      ]
+    },
+    {
+      "Route": "js/chat.zqv9d07570.js",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 15:39:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -580,7 +717,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ff91lmzkb2"
+          "Value": "zqv9d07570"
         },
         {
           "Name": "label",
@@ -588,13 +725,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY="
+          "Value": "sha256-++Vr+k4/DZ5xTi2wYd1Eh68ovXGDNppedZiLMN/Ft6I="
         }
       ]
     },
     {
-      "Route": "js/chat.ff91lmzkb2.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
+      "Route": "js/chat.zqv9d07570.js.gz",
+      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-zqv9d07570.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -603,7 +740,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "738"
+          "Value": "938"
         },
         {
           "Name": "Content-Type",
@@ -611,11 +748,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss=\""
+          "Value": "\"GkvWdPJku/bxD/WTEF0fPk6x+xmr8XnDGI/5D6fFQBc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
+          "Value": "Mon, 10 Feb 2025 15:39:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -633,7 +770,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ff91lmzkb2"
+          "Value": "zqv9d07570"
         },
         {
           "Name": "label",
@@ -641,144 +778,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss="
-        }
-      ]
-    },
-    {
-      "Route": "js/chat.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001353179973"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "738"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY="
-        }
-      ]
-    },
-    {
-      "Route": "js/chat.js",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\wwwroot\\js\\chat.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1855"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+2LEVrMKEDpU4ZYLl1qkaXx8ipAl0NJgckFcw63xxaY="
-        }
-      ]
-    },
-    {
-      "Route": "js/chat.js.gz",
-      "AssetFile": "C:\\Users\\user\\Desktop\\.NET\\petchat-signalr\\obj\\Debug\\net9.0\\compressed\\opph14zyyb-ff91lmzkb2.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "738"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 14:47:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Wu6fGeA4HMuYF2qeiFJ2MRDC3ozpUkSnBVWjzNS1Qss="
+          "Value": "sha256-GkvWdPJku/bxD/WTEF0fPk6x+xmr8XnDGI/5D6fFQBc="
         }
       ]
     },

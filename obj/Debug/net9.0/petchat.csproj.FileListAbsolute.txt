@@ -323,7 +323,6 @@ C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\petchat.RazorAssembl
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\petchat.sourcelink.json
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\scopedcss\bundle\petchat.styles.css
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\compressed\yczuqn5zu8-hl8na1ahus.gz
-C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\compressed\opph14zyyb-ff91lmzkb2.gz
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\compressed\cg6hb86p5r-zpec0ztkt6.gz
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\compressed\gao9lw5w3z-pz965nbkl3.gz
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\staticwebassets.build.json
@@ -342,3 +341,4 @@ C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\refint\petchat.dll
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\petchat.pdb
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\petchat.genruntimeconfig.cache
 C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\ref\petchat.dll
+C:\Users\user\Desktop\.NET\petchat-signalr\obj\Debug\net9.0\compressed\opph14zyyb-zqv9d07570.gz
